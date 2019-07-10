@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 
 
-CLIENT_SECRET_FILE = 'client_secret_973100024986-a8lrt97cdp0lpfj7td52psu6mm8gpaoh.apps.googleusercontent.com.json'
+CLIENT_SECRET_FILE = 'client_secret.json'
 SCOPES = ['https://www.googleapis.com/auth/youtube']
 
 flow = InstalledAppFlow.from_client_secrets_file(CLIENT_SECRET_FILE, SCOPES)
